@@ -72,9 +72,36 @@ int main()
             else
                 break;
         }
+        else if(left_d==right_d)
+        {
+				int k=left,ma=0;
+                while(k<=right-1 and a[k]<a[k+1])
+                    ++k;
+                ma=k-left;
+                k=right;
+                while(k>=left+1 and a[k-1]>a[k])
+                    --k;
+                if(ma>=(right-k))
+                {
+                    ans+='L';
+                    left=0;
+                    while(left<ma)
+                        ans+='L',++left;
+                }
+                else
+                {
+                    ma=right-k;
+                    ans+='R';
+                    left=0;
+                    while(left<ma)
+                        ans+='R',++left;
+                }
+                break;
+            }
+
         else
         {
-            if(right_d>maxi && left_d<maxi)
+            if(right_d>maxi)
             {
                 right--;
                 maxi=right_d;
