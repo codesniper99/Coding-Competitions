@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554478044 source:/home/akhil/Desktop/codincomp/april long 2019 modulo/main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<tgmath.h>
+
