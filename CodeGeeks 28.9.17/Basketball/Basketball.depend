@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1506611279 source:c:\users\win\desktop\basketball\main.cpp
+	<iostream>
+	<stdio.h>
+	<vector>
+

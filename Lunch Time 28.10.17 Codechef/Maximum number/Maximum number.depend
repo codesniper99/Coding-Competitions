@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1509205032 source:c:\users\akhil\desktop\lunch time 28.10.17 codechef\maximum number\main.cpp
+	<iostream>
+	<algorithm>
+	<stdio.h>
+	<math.h>
+	<vector>
+

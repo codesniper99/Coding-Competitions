@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508260785 source:c:\users\win\desktop\coding practice\sudoku solver backtracking-7\main.cpp
+	<iostream>
+	<stdio.h>
+

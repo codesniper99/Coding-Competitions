@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1545911331 source:c:\users\akhil\desktop\technocup virtual\connect three\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

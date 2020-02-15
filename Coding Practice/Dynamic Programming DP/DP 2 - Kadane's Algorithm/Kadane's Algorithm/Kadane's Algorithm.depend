@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1510046348 source:c:\users\akhil\desktop\coding practice\dynamic programming dp\kadane's algorithm\kadane's algorithm\main.cpp
+	<iostream>
+	<vector>
+	<bits/stdc++.h>
+

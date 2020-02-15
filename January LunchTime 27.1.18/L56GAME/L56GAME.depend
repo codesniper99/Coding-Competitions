@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1517063078 source:c:\users\akhil\desktop\coding practice\dynamic programming dp\l56game\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

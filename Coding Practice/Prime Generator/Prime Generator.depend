@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508962768 source:c:\users\akhil\desktop\coding practice\prime generator\main.cpp
+	<stdio.h>
+	<string.h>
+

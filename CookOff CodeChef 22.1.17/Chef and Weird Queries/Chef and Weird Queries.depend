@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1508959265 source:c:\users\akhil\desktop\competitions\cookoff codechef 22.1.17\chef and weird queries\main.cpp
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<stdlib.h>
+	<ctype.h>
+	<algorithm>
+	<vector>
+	<iostream>
+	<string>
+

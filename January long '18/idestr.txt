@@ -1,0 +1,88 @@
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <iomanip>
+#include <algorithm>    //for sort and others
+#include<climits>  //for INTMIN...
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+ 
+using namespace std;
+vector<string> vInterleaves
+ 
+//STRMRG
+ 
+string removeConsecutiveDuplicates(string s) 
+{
+    string sAnswer;
+    sAnswer+=s[0];  //start with first character...
+    for (int i=1;i<s.length();i++) {
+        if (s[i]==s[i-1]) { //duplicate so skip over
+        }
+        else {
+            sAnswer += s[i];
+        }
+    }
+ 
+    return sAnswer;
+}
+ 
+// vector<string> getInterleaves(string s1, string s2, int m, int n)
+// {
+//     char *iSt
+//     if (s1.length()==0 && s2.length()==0)
+ 
+//     vector<string> vAnswer;
+//     vAnswer.push_back("test1");
+//     vAnswer.push_back("test2");
+ 
+//     return vAnswer;
+// }
+void getInterleaves (char *str1, char *str2, int m, int n)
+{
+   // allocate memory for the output string
+   char *iStr= (char*)malloc((m+n+1)*sizeof(char));
+ 
+   // Set the terminator for the output string
+   iStr[m+n] = '\0';
+ 
+   // print all interleavings using printIlsRecur()
+   //printIlsRecur (str1, str2, iStr, m, n, 0);
+ 
+   // free memory to avoid memory leak
+   free(iStr); 
+}
+ 
+int main() {
+    int T;
+    cin >> T;
+ 
+    while (T--) {
+        int n, m;
+        cin  >> n >> m;
+ 
+        string sn, sm;
+        cin >> sn >> sm;
+ 
+        //first compress strings a little by removing any duplicate consecutive characters
+        string s1=removeConsecutiveDuplicates(sn);
+        string s2=removeConsecutiveDuplicates(sm);
+ 
+        //cout << s1 << ":" << s2 << endl;
+ 
+        //for basic brute force method...
+        //create all interleaves
+        //MAKE GLOBAL FOR NOW vector<string> vInterleaves =  getInterleaves(s1, s2);
+        getInterleaves(s1, s2, s1.size(), s2.size());
+ 
+        // for (int i=0;i<vInterleaves.size();i++)
+        // {
+        //     cout << vInterleaves[i] << ":";
+        // }
+        // cout << endl;
+ 
+    }
+ 
+	return 0;
+}

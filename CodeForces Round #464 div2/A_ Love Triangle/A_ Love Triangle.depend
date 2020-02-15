@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1518864175 source:c:\users\akhil\desktop\competition\codeforces round #464 div2\a_ love triangle\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

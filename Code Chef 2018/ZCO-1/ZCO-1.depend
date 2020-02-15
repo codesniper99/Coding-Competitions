@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1519315251 source:c:\users\akhil\desktop\code chef 2018\zco-1\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1518339152 source:c:\users\akhil\desktop\february long 2.2.18\test brkclk\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

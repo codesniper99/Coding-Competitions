@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1541267364 source:c:\users\akhil\desktop\snackdown preelimination\buddyy nim\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

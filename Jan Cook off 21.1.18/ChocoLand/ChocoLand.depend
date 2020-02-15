@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1516555385 source:c:\users\akhil\desktop\jan cook off\chocoland\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

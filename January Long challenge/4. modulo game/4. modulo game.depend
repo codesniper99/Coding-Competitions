@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1546845179 source:c:\users\akhil\desktop\january long challenge\4. modulo game\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<conio.h>
+

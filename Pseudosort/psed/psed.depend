@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1545303402 source:c:\users\akhil\desktop\pseudosort\psed\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

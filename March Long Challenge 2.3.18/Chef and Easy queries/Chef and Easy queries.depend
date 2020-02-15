@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1520099633 source:c:\users\akhil\desktop\march long challenge 2.3.18\chef and easy queries\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

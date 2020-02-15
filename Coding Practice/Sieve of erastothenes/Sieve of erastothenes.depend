@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1512059202 source:c:\users\akhil\desktop\coding practice\sieve of erastothenes\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

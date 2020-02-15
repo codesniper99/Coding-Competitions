@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1512143323 source:c:\users\akhil\desktop\december long challenge 1.12.17\test\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+	<string>
+

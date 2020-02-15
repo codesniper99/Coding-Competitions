@@ -48,46 +48,32 @@ int main()
         rep(i,0,n)
             cin>>a[i];
 
-        ll fk=0;
-        ll mx=-1;
-        ll pos=-1;
+        vi ans(n);
         rep(i,0,n)
         {
-         if(a[i]>mx)
-             {mx=a[i];pos=i;}
-        }
-
-        for(ll i=pos-1;i>=0;i--)
-        {
-            if( a[i+1]>a[i] )
-                continue;
-            else if(a[i+1]==a[i])
-                a[i]--;
+            if(a[i]>=i)
+                ans[i]++;
             else
-                a[i] = a[i+1]-1;
+                break;
+
         }
-        for(ll i=pos+1;i<=n-1;i++)
+        for(ll i=n-1;i>=0;i--)
         {
-            if( a[i]<a[i-1] )
-                continue;
-            else if(a[i-1]==a[i])
-                a[i]--;
+            if(a[i]>=n-1-i)
+                ans[i]++;
             else
-                a[i] = a[i-1]-1;
+                break;
         }
-
-        ll flag=0;
-        for(ll i=0;i<n;i++)
-        {
-            if(a[i]<0)
-            flag=1;
-
-        }
-        if(flag)
-            cout<<"No\n";
-        else
+        rep(i,0,n)
+            {
+                //cout<<ans[i]<<' ';
+                if(ans[i]>=2)
+                    {f=1;break;}
+            }
+        if(f)
             cout<<"Yes\n";
-
+        else
+            cout<<"No\n";
     }
 
 

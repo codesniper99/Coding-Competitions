@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1546613290 source:c:\users\akhil\desktop\hello newyear 2019 codeforces\a. 1st\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+

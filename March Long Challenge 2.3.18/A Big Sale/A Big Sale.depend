@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1520151599 source:c:\users\akhil\desktop\march long challenge 2.3.18\a big sale\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

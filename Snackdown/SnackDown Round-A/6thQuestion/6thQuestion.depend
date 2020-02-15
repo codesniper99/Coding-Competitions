@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540068410 source:c:\users\akhil\desktop\snackdown round-a\6thquestion\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

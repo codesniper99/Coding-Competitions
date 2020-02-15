@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1521392057 source:c:\users\akhil\desktop\march cookoff 18.3.18\restore matrix\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

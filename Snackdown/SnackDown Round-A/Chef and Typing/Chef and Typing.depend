@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1539966013 source:c:\users\akhil\desktop\snackdown round-a\chef and typing\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

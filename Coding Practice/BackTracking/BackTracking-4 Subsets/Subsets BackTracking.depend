@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1508044104 source:c:\users\win\desktop\coding practice\subsets backtracking\main.cpp
+	<stdio.h>
+	<stdlib.h>
+
+1515261156 source:c:\users\akhil\desktop\coding practice\backtracking\backtracking-4 subsets\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

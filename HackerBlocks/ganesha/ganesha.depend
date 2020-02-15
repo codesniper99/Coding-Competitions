@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1510412809 source:c:\users\akhil\desktop\havckerblocks\ganesha\main.cpp
+	<iostream>
+	<stdio.h>
+	<process.h>
+	<stdlib.h>
+

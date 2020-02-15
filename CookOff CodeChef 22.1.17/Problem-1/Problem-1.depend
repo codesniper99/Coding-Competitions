@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508691277 source:c:\users\akhil\desktop\cookoff codechef 22.1.17\problem-1\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

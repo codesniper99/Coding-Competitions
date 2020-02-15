@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1532787902 source:c:\users\akhil\desktop\lunchtime 28.7.18\stones\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1517068896 source:c:\users\akhil\desktop\coding practice\dynamic programming dp\labyrinth\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

@@ -1,0 +1,81 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define si short int
+si dp[5001][5001][27];
+si n,m;
+ 
+ int cal(char *s,char *s1,long long n,long long m, char last){
+ 
+ 
+	if(n==0 && m==0)
+	return 0;
+ 
+	if(n==0){
+	    long long sum=0;
+	     if(last!=(s1[0]-'a'+1))
+	         sum=sum+1;
+		for(int i=0;i<m-1;i++){
+			if(s1[i]!=s1[i+1])
+			sum++;
+		}
+ 
+			return sum;
+		}
+	if(m==0){
+	    long long sum=0;
+	    if(last!=(s[0]-'a'+1) )
+	       sum=sum+1;
+ 
+ 
+		for(int i=0;i<n-1;i++){
+			if(s[i]!=s[i+1])
+			sum++;
+		}
+ 
+			return sum;
+		}
+ 
+		if(dp[n][m][last]!=-1)
+		  return dp[n][m][last];
+ 
+ 
+	si l=cal(s+1,s1,n-1,m,s[0])+(s[0]==last);
+    si p=cal(s,s1+1,n,m-1,s1[0])+(s[1]==last);
+ 
+   	 long long result=min(l,p);
+ 	 dp[n][m][last]=result;
+   	 return result;
+ }
+ 
+ 
+int main(){
+    si t;
+    cin>>t;
+ 
+    while(t--){
+ 
+        cin>>n>>m;
+        char* s=new char[n];
+        for(int i=0;i<n;i++){
+        	cin>>s[i];
+        }
+         char* s1=new char[n];
+         for(int i=0;i<m;i++){
+        	cin>>s1[i];
+        }
+        //allocate memory
+ 
+  for(int i = 0 ; i <=n ; i++){
+      for(int j = 0 ; j <= m ; j++){
+       for(int k = 0 ; k <27 ; k++){
+        dp[i][j][k] = -1;
+      }
+    }
+ 
+  }
+    cout<<1+cal(s,s1,n,m,'A')<<endl;
+ 
+ 
+ 
+   }
+  } 

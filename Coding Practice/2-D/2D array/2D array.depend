@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1507214607 source:c:\users\win\desktop\coding practice\2d array\main.cpp
+	<iostream>
+	<stdio.h>
+	<vector>
+

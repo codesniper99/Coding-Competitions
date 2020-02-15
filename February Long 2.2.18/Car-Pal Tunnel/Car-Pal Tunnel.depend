@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1517675323 source:c:\users\akhil\desktop\february long 2.2.18\car-pal tunnel\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

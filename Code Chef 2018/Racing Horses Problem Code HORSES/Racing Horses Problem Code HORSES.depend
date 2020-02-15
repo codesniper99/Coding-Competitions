@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1506454796 source:c:\users\win\desktop\codeblocks 2017\code chef 2017\racing horses problem code horses\main.cpp
+	<iostream>
+	<vector>
+	<stdio.h>
+

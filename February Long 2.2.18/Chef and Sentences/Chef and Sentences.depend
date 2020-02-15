@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1517575177 source:c:\users\akhil\desktop\february long 2.2.18\chef and sentences\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

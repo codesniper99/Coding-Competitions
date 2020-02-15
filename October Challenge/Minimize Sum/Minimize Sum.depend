@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1539455356 source:c:\users\akhil\desktop\october challenge\minimize sum\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

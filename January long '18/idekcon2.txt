@@ -1,0 +1,116 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main()
+{
+     long t;
+     cin>>t;
+     for(int m=0; m<t; m++)
+     {
+       long n,k;
+       cin>>n>>k;
+       long a[n];
+       long sum =0;
+       for(int i=0; i<n; i++)
+       {
+       	cin>>a[i];
+       	sum+=a[i];
+       }
+       if(k==1)
+       {
+       	long currentmax= a[0]; long globalmax = a[0];
+	       for(int p=1; p<n; p++)
+	       {
+	       	currentmax = max(a[p],a[p]+currentmax);
+	       	if(currentmax>globalmax)
+	       	{
+	       		globalmax = currentmax;
+	       	}
+	       }
+	       cout<<globalmax<<endl;
+       }
+       else if(k==2)
+       {
+       	 long b[n*2];
+	       	for(int j=0; j<n*2; j++)
+	       	{
+	       		b[j] = a[j%n];
+	       	}
+ 
+	       long currentmax= b[0]; long globalmax = b[0];
+	       for(int p=1; p<n*2; p++)
+	       {
+	       	currentmax = max(b[p],b[p]+currentmax);
+	       	if(currentmax>globalmax)
+	       	{
+	       		globalmax = currentmax;
+	       	}
+	       }
+	       cout<<globalmax<<endl;
+       }
+       else if(sum>0)
+       {
+       	long b[n*2];
+       	long sum1 =0;
+	       	for(int j=0; j<n*2; j++)
+	       	{
+	       		b[j] = a[j%n];
+	       		sum1 += b[j];
+	       	}
+ 
+	       long currentmax= b[0]; long globalmax = b[0];
+	       for(int p=1; p<n*2; p++)
+	       {
+	       	currentmax = max(b[p],b[p]+currentmax);
+	       	if(currentmax>globalmax)
+	       	{
+	       		globalmax = currentmax;
+	       	}
+	       }
+	       if(k%2==0)
+	       {
+	       	cout<<globalmax*(k/2)+(k/2 -1)*(sum1-globalmax)<<endl;
+	       }
+	       else
+	       {
+	       	long d = k-1;
+	       	long answer = globalmax*(d/2)+(d/2)*(sum1-globalmax);
+ 
+		       long currentmax1= a[0]; long globalmax1 = a[0];
+	       for(int p=1; p<n; p++)
+	       {
+	       	currentmax1 = max(a[p],a[p]+currentmax1);
+	       	if(currentmax1>globalmax1)
+	       	{
+	       		//l=p;
+	       		globalmax1 = currentmax1;
+	       	}
+	       }
+	       answer +=globalmax1;
+	       cout<<answer<<endl;
+	       }
+ 
+       }
+       else
+       {
+	       	  long b[n*2];
+	       	for(int j=0; j<n*2; j++)
+	       	{
+	       		b[j] = a[j%n];
+	       	}
+ 
+	       long currentmax= b[0]; long globalmax = b[0];
+	       for(int p=1; p<n*2; p++)
+	       {
+	       	currentmax = max(b[p],b[p]+currentmax);
+	       	if(currentmax>globalmax)
+	       	{
+	       		globalmax = currentmax;
+	       	}
+	       }
+	       cout<<globalmax<<endl;
+       }
+ 
+     }
+ 
+}

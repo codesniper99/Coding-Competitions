@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1516293813 source:c:\users\akhil\desktop\coding practice\dynamic programming dp\dp increasing subsequence\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

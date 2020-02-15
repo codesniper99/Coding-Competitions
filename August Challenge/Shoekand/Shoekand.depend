@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1533661008 source:c:\users\akhil\desktop\august challenge\shoekand\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1535209005 source:c:\users\akhil\desktop\lunchtime aug\probs testing\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

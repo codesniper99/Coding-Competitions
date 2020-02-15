@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1545379522 source:c:\users\akhil\desktop\december long challenge\maxep\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

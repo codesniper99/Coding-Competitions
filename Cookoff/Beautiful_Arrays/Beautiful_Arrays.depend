@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1514141191 source:c:\users\akhil\desktop\cookoff\beautiful_arrays\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

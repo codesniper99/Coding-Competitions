@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1519491027 source:c:\users\akhil\desktop\feb lunchtime\game chef chefu\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

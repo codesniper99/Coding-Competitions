@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1508412730 source:c:\users\win\desktop\coding practice\towers of hanoi\main.cpp
+	<iostream>
+	<stdio.h>
+	<vector>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1538233989 source:c:\users\akhil\desktop\codechef semptember lunchtime\chefres\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1518868601 source:c:\users\akhil\desktop\competition\codeforces round #464 div2\c_convienent for everybody\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+
