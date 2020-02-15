@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Codeforces_Round__617_Div3.dir/main.cpp.o  -o Codeforces_Round__617_Div3 
