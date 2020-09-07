@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1542563676 source:c:\users\akhil\desktop\november cookoff 18.11.18\beautiful garland\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

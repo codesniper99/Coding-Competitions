@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1513158688 source:c:\users\akhil\desktop\coding practice\the next palindrome problem code  palin\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

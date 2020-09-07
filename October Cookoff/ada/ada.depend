@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540139531 source:c:\users\akhil\desktop\october cookoff\ada\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

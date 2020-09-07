@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1516812773 source:c:\users\akhil\desktop\coding practice\dynamic programming dp\dp 7 - coin change\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

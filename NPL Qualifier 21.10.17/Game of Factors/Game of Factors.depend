@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508601694 source:c:\users\win\desktop\competitions\npl qualifier 21.10.17\game of factors\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

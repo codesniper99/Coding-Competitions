@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1540756340 source:c:\users\akhil\desktop\snackdown round-a\ideo\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<bits/stdc++.h>
+

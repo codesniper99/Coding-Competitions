@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1533652761 source:c:\users\akhil\desktop\august challenge\problems\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+	<vector>
+	<map>
+	<algorithm>
+

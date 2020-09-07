@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1506453046 source:c:\users\win\desktop\codeblocks 2017\code chef 2017\cleaning up problem code  cleanup\main.cpp
+	<iostream>
+	<stdio.h>
+	<vector>
+

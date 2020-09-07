@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1510252018 source:c:\users\akhil\desktop\competition\november long challenge 3.11.17\chef hates palindromes\main.cpp
+	<iostream>
+	<stdio.h>
+	<vector>
+	<string>
+

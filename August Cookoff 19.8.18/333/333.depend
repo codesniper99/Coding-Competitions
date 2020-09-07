@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1534698493 source:c:\users\akhil\desktop\august cookoff 19.8.18\333\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+	<string>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1538835042 source:c:\users\akhil\desktop\october challenge\appy and balloons\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

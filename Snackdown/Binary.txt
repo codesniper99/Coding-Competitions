@@ -1,0 +1,15 @@
+Binary Search
+
+1.https://discuss.codechef.com/questions/29659/lowsum-editorial
+
+2.https://discuss.codechef.com/questions/136251/chefres-editorial
+
+
+3.https://discuss.codechef.com/questions/92702/schedule-editorial
+4.https://discuss.codechef.com/questions/39945/sstory-editorial
+
+5.https://discuss.codechef.com/questions/66064/strsub-editorial
+
+6.https://discuss.codechef.com/questions/44793/func-editorial
+
+7.https://discuss.codechef.com/questions/102086/prmq-editorialunofficial-simplicity-gauranteed

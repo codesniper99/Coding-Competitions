@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1534695088 source:c:\users\akhil\desktop\august cookoff 19.8.18\mixi\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

@@ -1,0 +1,59 @@
+#include <iostream>
+#include<stdio.h>
+#include<bits/stdc++.h>
+
+#define ll long long int
+#define li long int
+
+using namespace std;
+
+int main()
+{
+    ios::sync_with_stdio(0);
+    int t;
+    cin>>t;
+    while(t--)
+    {
+       ll n;
+       cin>>n;
+       vector<ll> a(n);
+       for(ll i=0;i<n;i++)
+            cin>>a[i];
+       ll c,d,s;
+       cin>>c>>d>>s;
+
+       ll lambda;
+       double t1=0,t2=0;
+       double time_between_tunnels = d/s;
+
+       ll service_time;
+
+       t1= (n-1)*time_between_tunnels;
+
+       for(ll i=0;i<n;i++)
+       {
+
+         t1+=a[i];
+
+       }
+
+       // T222
+       t2= (n-1)*time_between_tunnels + a[0];
+cout<< " starting t2 - "<<t2<<"  ";
+       for(ll i=0;i<n;i++)
+       {
+           if(a[i]-time_between_tunnels>0)
+         t2+=a[i] + a[i]-time_between_tunnels ;
+           else
+            t2+=a[i];
+
+       }
+
+
+
+       cout<<"t1 -  "<< t1<<"  t2 - "<<t2<<" Total answer - "<<(n-1)*(t2-t1)<<"\n";
+    }
+
+
+    return 0;
+}

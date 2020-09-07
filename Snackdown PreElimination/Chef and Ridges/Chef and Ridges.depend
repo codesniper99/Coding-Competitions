@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1541596597 source:c:\users\akhil\desktop\snackdown preelimination\chef and ridges\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

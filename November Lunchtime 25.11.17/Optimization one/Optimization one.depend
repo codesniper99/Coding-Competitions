@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1511620419 source:c:\users\akhil\desktop\november lunchtime 25.11.17\optimization one\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<stdio.h>
+	<math.h>
+

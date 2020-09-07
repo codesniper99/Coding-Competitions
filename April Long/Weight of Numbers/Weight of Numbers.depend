@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1523291197 source:c:\users\akhil\desktop\april long\weight of numbers\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

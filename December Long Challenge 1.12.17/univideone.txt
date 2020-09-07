@@ -1,0 +1,99 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long int
+ 
+ 
+ll cost1(ll x,ll y,ll z,ll a,ll b,ll c){
+    ll cost = 0;
+    cost+=x*a;
+    cost+=a*y;
+    cost+=a*z;
+    return cost;
+}
+ 
+ 
+ll cost4(ll x,ll y,ll z,ll a,ll b,ll c){
+    ll cost = 0;
+    ll minim = min(x,min(y,z));
+    cost += c*(minim);
+    x = x-minim;
+    y = y-minim;
+    z=z-minim;
+    cost+=cost1(x,y,z,a,b,c);
+ 
+    return cost;
+}
+ 
+ll cost3(ll x,ll y,ll z,ll a,ll b,ll c){
+    ll cost = 0;
+    ll minim = min(x,min(y,z));
+    cost += c*(minim);
+    x = x-minim;
+    y = y-minim;
+    z=z-minim;    
+    while(x&&y||y&&z||z&&x){
+        if(y==1&&z==1&&x==1)
+            break;
+        ll p = min(x,min(y,z));
+        if(p == x){
+            cost+=b;
+            y=y-1;
+            z=z-1;
+        }else if(p==y){
+            cost+=b;
+            x=x-1;
+            z=z-1;
+        }else {
+            cost+=b;
+            x=x-1;
+            y=y-1;
+        }
+                // cout<<cost<<"("<<x<<","<<y<<","<<z<<")";
+    }
+    // cout<<cost;
+    cost+=cost1(x,y,z,a,b,c);
+    return cost;
+}
+ 
+ 
+ll cost2(ll x,ll y,ll z,ll a,ll b,ll c){
+    ll cost = 0;
+    while(x&&y||y&&z||z&&x){
+        if(y==1&&z==1&&x==1)
+            break;
+        ll p = min(x,min(y,z));
+        if(p == x){
+            cost+=b;
+            y=y-1;
+            z=z-1;
+        }else if(p==y){
+            cost+=b;
+            x=x-1;
+            z=z-1;
+        }else {
+            cost+=b;
+            x=x-1;
+            y=y-1;
+        }
+                // cout<<cost<<"("<<x<<","<<y<<","<<z<<")";
+    }
+    // cout<<cost;
+    cost+=min(cost1(x,y,z,a,b,c),min(cost3(x,y,z,a,b,c),cost4(x,y,z,a,b,c)));
+    return cost;
+}
+ 
+int main() {
+ 
+    ll t;
+    cin >> t;
+    for (ll i = 0; i < t; i++) {
+        ll a, b, c, x, y, z;
+        cin >> x >> y >> z >> a >> b >> c;
+        cout<<min(min(cost1(x,y,z,a,b,c),cost2(x,y,z,a,b,c)),min(cost3(x,y,z,a,b,c),cost4(x,y,z,a,b,c)))<<endl;
+          cout<<cost1(x,y,z,a,b,c)<<", ";
+          cout<<cost2(x,y,z,a,b,c)<<", ";
+          cout<<cost3(x,y,z,a,b,c)<<", ";
+          cout<<cost4(x,y,z,a,b,c)<<", ";
+ 
+    }
+}

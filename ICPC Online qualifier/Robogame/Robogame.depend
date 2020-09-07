@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540306312 source:c:\users\akhil\desktop\icpc online qualifier\robogame\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

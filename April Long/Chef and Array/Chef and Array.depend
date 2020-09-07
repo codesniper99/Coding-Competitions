@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1523623485 source:c:\users\akhil\desktop\april long\chef and array\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1510415660 source:c:\users\akhil\desktop\code chef 2017\and sum\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

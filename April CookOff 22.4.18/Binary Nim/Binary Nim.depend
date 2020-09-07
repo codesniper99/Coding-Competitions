@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1524413931 source:c:\users\akhil\desktop\april cookoff 22.4.18\binary nim\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1512192476 source:c:\users\akhil\desktop\december long challenge 1.12.17\chef and easy xor\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<vector>
+

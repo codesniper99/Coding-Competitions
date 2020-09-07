@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1507994362 source:c:\users\win\desktop\coding practice\attempt n queens\main.cpp
+	<iostream>
+	<stdio.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1521389962 source:c:\users\akhil\desktop\march cookoff 18.3.18\chef cinema\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

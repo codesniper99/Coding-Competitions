@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1500275581 source:c:\users\win\desktop\codeblocks 2017\code chef 2017\thereal quicksort\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+

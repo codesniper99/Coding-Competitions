@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1545809987 source:c:\users\akhil\desktop\technocup virtual\right-left cipher\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

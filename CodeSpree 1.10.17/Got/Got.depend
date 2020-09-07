@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1506876258 source:c:\users\win\desktop\codeblocks 2017\codespree 1.10.17\got\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+

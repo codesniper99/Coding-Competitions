@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540307611 source:c:\users\akhil\desktop\icpc online qualifier\redcgame\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

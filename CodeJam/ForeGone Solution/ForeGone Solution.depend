@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1554527555 source:c:\users\akhil\desktop\codejam\foregone solution\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1518971968 source:c:\users\akhil\desktop\february cookoff 18.2.18\tuples\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

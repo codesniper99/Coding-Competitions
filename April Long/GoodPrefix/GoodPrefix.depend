@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1523179632 source:c:\users\akhil\desktop\april long\goodprefix\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

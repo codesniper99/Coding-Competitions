@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1509554357 source:c:\users\akhil\desktop\hackerearth 1.11.17\array sub\main.cpp
+	<iostream>
+	<stdio.h>
+	<vector>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1509200446 source:c:\users\akhil\desktop\lunch time 28.10.17 codechef\buggy calc\main.cpp
+	<iostream>
+	<stdio.h>
+	<math.h>
+

@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1509561231 source:c:\users\akhil\desktop\hash tables\src\hash.cpp
+	"Hash.h"
+	<iostream>
+	<string>
+
+1509561827 c:\users\akhil\desktop\hash tables\include\hash.h
+	<string>
+	<iostream>
+	<cstring>
+
+1509560933 source:c:\users\akhil\desktop\hash tables\main.cpp
+	<iostream>
+	<string>
+	<stdio.h>
+	"Hash.h"
+

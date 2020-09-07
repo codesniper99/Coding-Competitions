@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1514386005 source:c:\users\akhil\desktop\code chef 2017\random pairs\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

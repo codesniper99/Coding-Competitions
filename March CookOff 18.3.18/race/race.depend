@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1521390491 source:c:\users\akhil\desktop\march cookoff 18.3.18\race\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

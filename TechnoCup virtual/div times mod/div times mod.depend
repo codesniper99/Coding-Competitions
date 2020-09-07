@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1545814823 source:c:\users\akhil\desktop\technocup virtual\div times mod\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

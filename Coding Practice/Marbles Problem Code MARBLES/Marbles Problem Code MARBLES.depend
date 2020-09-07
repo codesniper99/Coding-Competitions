@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1512916235 source:c:\users\akhil\desktop\coding practice\marbles problem code marbles\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

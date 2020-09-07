@@ -1,0 +1,58 @@
+include<iostream>
+#include<climits>
+using namespace std;
+long long mc(long long arr[], int l, int m, int h)
+{
+    // Include elements on left of mid.
+    long long sum = 0;
+    long long left_sum = LLONG_MIN;
+    for (int i = m; i >= l; i--)
+    {
+        sum = sum + arr[i];
+        if (sum > left_sum)
+          left_sum = sum;
+    }
+ 
+    // Include elements on right of mid
+    sum = 0;
+    long long right_sum = LLONG_MIN;
+    for (int i = m+1; i <= h; i++)
+    {
+        sum = sum + arr[i];
+        if (sum > right_sum)
+          right_sum = sum;
+    }
+ 
+    // Return sum of elements on left and right of mid
+    return left_sum + right_sum;
+}
+long long m(long long a[],int l,int h)
+{
+ if(l==h)
+  return a[l];
+ int mid=(l+h)/2;
+ return max(m(a,l,mid),max(m(a,mid+1,h),mc(a,l,mid,h)));
+}
+int main()
+{
+   int t,n,k,i;
+  cin>>t;
+  while(t--)
+  {
+   cin>>n>>k;
+  long long a[n];
+   long long b[2*n];
+   long long sum=0;
+   for(i=0;i<n;i++)
+   {
+     cin>>a[i];
+     b[i]=b[n+i]=a[i];
+     sum+=a[i];
+   }
+   for(i=0;i<2*n;i++)
+   cout<<b[i]<<' ';
+   cout<<endl;
+   //cout<<max(m(a,0,n-1),max(m(b,0,2*n-1),max(sum,k*sum)))<<endl;
+  }
+  return 0;
+}

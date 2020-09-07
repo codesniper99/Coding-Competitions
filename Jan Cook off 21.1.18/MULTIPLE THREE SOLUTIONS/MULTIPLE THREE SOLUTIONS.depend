@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1516650577 source:c:\users\akhil\desktop\jan cook off\multiple three solutions\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

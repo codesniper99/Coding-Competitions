@@ -1,0 +1,117 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main() 
+{
+    int t;
+    cin >> t;
+    for (int i = 0 ; i < t ; i++)
+    {
+        int n,k;
+        cin >> n >> k;
+        vector<long int> a(2*n,0);
+        for (int j = 0 ; j < n ; j++)
+        {
+            cin >> a[j];
+            a[j + n] = a[j];
+        }
+        long long int max_so_far = INT_MIN, max_ending_here = 0;
+        int start =0, end = 0, s=0;
+        for (int j=0; j< 2*n; j++)
+        {
+            max_ending_here += a[j];
+            if (max_so_far < max_ending_here)
+            {
+                max_so_far = max_ending_here;
+                start = s;
+                end = j;
+            }
+            if (max_ending_here < 0)
+            {
+                max_ending_here = 0;
+                s = j+1;
+            }
+        }
+        long long int maxsofar = INT_MIN, maxendinghere = 0,remain_start1=0,remain_end1=0;
+        int start1 =0, end1 = 0, s1=0;
+        if (k % 2 == 1)
+        {
+            for (int j=0; j< n; j++)
+            {
+                maxendinghere += a[j];
+                if (maxsofar < maxendinghere)
+                {
+                    maxsofar = maxendinghere;
+                    start1 = s1;
+                    end1 = j;
+                }
+                if (maxendinghere < 0)
+                {
+                    maxendinghere = 0;
+                    s1 = j+1;
+                }
+            }
+            for (int j = 0 ; j < start1 ; j++)
+                remain_start1 += a[j];
+            for (int j = end1 + 1 ; j < n ; j++)
+                remain_end1 += a[j];
+        }
+        cout << start << " " << end << endl;
+        if (start == 0 && end == 2*n - 1)
+        {
+            long long int ans = (k / 2)*max_so_far;
+            if (k % 2 == 1)
+            {
+                ans = max(ans,remain_start1 + maxsofar + ans);
+                ans = max(ans,remain_end1 + maxsofar + ans);
+            }
+            ans = max(ans,maxsofar);
+            cout << ans << endl;
+        }
+        else
+        {
+            long long int remain_start = 0, remain_end=0;
+            for (int j = end + 1 ; j < 2*n ; j++)
+                remain_end += a[j];
+            for (int j = 0 ; j < start ; j++)
+                remain_start += a[j];
+            if (start == 0)
+            {
+                long long int ans = ((k-2)/ 2)*(max_so_far + remain_end) + max_so_far;
+                if (k % 2 == 1)
+                {
+                    ans = max(ans,ans + remain_start1 + maxsofar + remain_end);
+                    ans = max(ans,remain_end1 + maxsofar + ans);
+                }
+                ans = max(ans , max_so_far);
+                ans = max(ans,maxsofar);
+                cout << ans << endl;
+            }
+            else if (end == 2*n - 1)
+            {
+                long long int ans = ((k-2) / 2)*(max_so_far + remain_start) + max_so_far;
+                if (k % 2 == 1)
+                {
+                    ans = max(ans,ans + remain_start1 + maxsofar);
+                    ans = max(ans,remain_end1 + remain_start + maxsofar + ans);
+                }
+            	ans = max(ans , max_so_far);
+            	ans = max(ans,maxsofar);
+                cout << ans << endl;
+            }
+            else
+            {
+                long long int ans = ((k-2) / 2)*(remain_start + max_so_far + remain_end) + max_so_far;
+                if (k % 2 == 1)
+                {
+                    ans = max(ans,ans + remain_start1 + maxsofar + remain_end);
+                    ans = max(ans,ans + remain_start + maxsofar + remain_end1);
+                }   
+                ans = max(ans , max_so_far);
+                ans = max(ans,maxsofar);
+                cout << ans << endl;
+            }
+        }
+    }
+	return 0;
+}

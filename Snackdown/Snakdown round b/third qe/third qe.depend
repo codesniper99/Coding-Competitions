@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540753072 source:c:\users\akhil\desktop\snakdown round b\third qe\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+

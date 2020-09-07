@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1533806714 source:c:\users\akhil\desktop\august challenge\modular gcd\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+	<algorithm>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1514644918 source:c:\users\akhil\desktop\bitflit\month\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+
