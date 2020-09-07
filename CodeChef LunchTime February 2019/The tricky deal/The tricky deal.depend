@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1550932868 source:c:\users\akhil\desktop\coding competitions\coding-competitions\codechef lunchtime february 2019\the tricky deal\main.cpp
-	<bits/stdc++.h>
-	<ext/pb_ds/assoc_container.hpp>
-	<tgmath.h>
-
