@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1690017578 source:c:\users\akhil\onedrive\desktop\codeforces\practice\good subarrays cf\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
