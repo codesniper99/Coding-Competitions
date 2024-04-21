@@ -1,0 +1,16 @@
+{
+  "C_Cpp.errorSquiggles": "enabled",
+  "files.associations": {
+    "iostream": "cpp",
+    "regex": "cpp",
+    "chrono": "cpp",
+    "complex": "cpp",
+    "valarray": "cpp",
+    "cmath": "cpp",
+    "__split_buffer": "cpp",
+    "deque": "cpp",
+    "list": "cpp",
+    "string": "cpp",
+    "vector": "cpp"
+  }
+}
